@@ -1,0 +1,7 @@
+#!/bin/bash
+
+SELECCIONAR=`egrep '00Z' df2017CAPE_PW.csv > df2017CAPE_PW_00Z.csv`
+echo $SELECCIONAR 
+
+SELECCIONAR2=`egrep '12Z' df2017CAPE_PW.csv > df2017CAPE_PW_12Z.csv`
+echo $SELECCIONAR2 
